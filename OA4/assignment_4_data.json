@@ -1,0 +1,126 @@
+{
+    "films" : [
+        {
+            "fid" : 1, 
+            "title" : "The Platform", 
+            "year": 2019, 
+            "genre": [1,2,3], 
+            "director": 1, 
+            "cast": [2,3,4] , 
+            "description": "A vertical prison with one cell per level. Two people per cell. One only food platform and two minutes per day to feed from up to down. An endless nightmare trapped in The Hole."
+        },
+        {
+            "fid" : 2, 
+            "title" : "Contagion", 
+            "year": 2011, 
+            "genre": [4,5,3],
+            "director": 5, 
+            "cast": [6,7,8] , 
+            "description": "Healthcare professionals, government officials and everyday people find themselves in the midst of a pandemic as the CDC works to find a cure."
+        },
+        {
+            "fid" : 3, 
+            "title" : "Toy Story 3", 
+            "year": 2010, 
+            "genre": [6,7,8],
+            "director": 9, 
+            "cast": [10,11,12] , 
+            "description": "The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home."
+        },
+        {
+            "fid" : 4, 
+            "title" : "The Martian", 
+            "year": 2015, 
+            "genre": [7,5,2],
+            "director": 27, 
+            "cast": [6,28,29] , 
+            "description": "The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home."
+        }
+    ],
+    "tvseries" : [
+        {
+            "tid" : 1, 
+            "title" : "Breaking Bad", 
+            "year": 2008, 
+            "genre": [9,5,3],
+            "creator": 13, 
+            "cast": [14,15,16] , 
+            "description": " A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future."
+        },
+        {
+            "tid" : 2, 
+            "title" : "The Handmaid's Tale", 
+            "year": 2017, 
+            "genre": [5,2,3],
+            "creator": 17, 
+            "cast": [18,19,20] , 
+            "description": "A high school chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine in order to secure his family's future."
+        },
+        {
+            "tid" : 3, 
+            "title" : "Gravity Falls", 
+            "year": 2012, 
+            "genre": [6,4,7],
+            "creator": 21, 
+            "cast": [22,21,24] , 
+            "description": "Twin siblings Dipper and Mabel Pines spend the summer at their great-uncle's tourist trap in the enigmatic Gravity Falls, Oregon."
+        },
+        {
+            "tid" : 4, 
+            "title" : "Curb Your Enthusiasm ", 
+            "year": 2000, 
+            "genre": [8],
+            "creator": 24, 
+            "cast": [24,25,26] , 
+            "description": "The life and times of Larry David and the predicaments he gets himself into with his friends and complete strangers."
+        }
+    ],
+    "people" : [
+        { "pid": 1, "name" : "Galder Gaztelu-Urrutia" },
+        { "pid": 2, "name" : "Ivan Massagué" },
+        { "pid": 3, "name" : "Zorion Eguileor" },
+        { "pid": 4, "name" : "Antonia San Juan" },
+        { "pid": 5, "name" : "Steven Soderbergh" },
+        { "pid": 6, "name" : "Matt Damon" }, 
+        { "pid": 7, "name" : "Kate Winslet" }, 
+        { "pid": 8, "name" : "Jude Law" }, 
+        { "pid": 9, "name" : "Lee Unkrich" }, 
+        { "pid": 10, "name" : "Tom Hanks" }, 
+        { "pid": 11, "name" : "Tim Allen" }, 
+        { "pid": 12, "name" : "Joan Cusack" },
+        { "pid": 13, "name" : "Vince Gilligan"} ,
+        { "pid": 14, "name" : "Bryan Cranston"}, 
+        { "pid": 15, "name" : "Aaron Paul"}, 
+        { "pid": 16, "name" : "Anna Gunn" },
+        { "pid": 17, "name" : "Bruce Miller" },
+        { "pid": 18, "name" : "Elisabeth Moss" },
+        { "pid": 19, "name" : "Yvonne Strahovski" },
+        { "pid": 20, "name" : "Joseph Fiennes" },
+        { "pid": 21, "name" : "Alex Hirsch" },
+        { "pid": 22, "name" : "Jason Ritter" },
+        { "pid": 23, "name" : "Kristen Schaal" },
+        { "pid": 24, "name" : "Larry David" },
+        { "pid": 25, "name" : "Cheryl Hines" },
+        { "pid": 26, "name" : "Jeff Garlin" },
+        { "pid": 27, "name" : "Ridley Scott" },
+        { "pid": 28, "name" : "Jessica Chastain" }, 
+        { "pid": 29, "name" : "Kristen Wiig" }
+    ],
+    "genres" : [
+        { "gid": 1, "genre": "Horror" },
+        { "gid": 2, "genre": "Sci-Fi" },
+        { "gid": 3, "genre": "Thriller" },
+        { "gid": 4, "genre": "Action"}, 
+        { "gid": 5, "genre": "Drama"},
+        { "gid": 6, "genre": "Animation"},
+        { "gid": 7, "genre": "Adventure"},
+        { "gid": 8, "genre": "Comedy"},
+        { "gid": 9, "genre": "Crime"}
+    ],
+    "profiles": [
+        { "name": "Mewtwo", "preferredGenre": 6 },
+        { "name": "Pikachu", "preferredGenre": 2 },
+        { "name": "Charizard", "preferredGenre": 8 },
+        { "name": "Decidueye", "preferredGenre": 3 }
+    ]
+}
